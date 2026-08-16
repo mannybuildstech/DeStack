@@ -1,18 +1,31 @@
-body.substack-home-blocker-enabled main,
+body.substack-home-blocker-enabled [data-testid="notes-feed"],
+body.substack-home-blocker-enabled [data-testid="home-feed"],
+body.substack-home-blocker-enabled [data-testid="for-you-feed"],
 body.substack-home-blocker-enabled [data-testid*="feed"],
+body.substack-home-blocker-enabled [role="feed"],
+body.substack-home-blocker-enabled [aria-label*="feed" i],
 body.substack-home-blocker-enabled .feed,
+body.substack-home-blocker-enabled .notes-feed,
 body.substack-home-blocker-enabled .home-feed,
-body.substack-home-blocker-enabled .homepage,
 body.substack-home-blocker-enabled .post-feed,
 body.substack-home-blocker-enabled .post-list,
 body.substack-home-blocker-enabled .posts,
-body.substack-home-blocker-enabled article,
-body.substack-home-blocker-enabled .post-preview {
+body.substack-home-blocker-enabled article {
   display: none !important;
 }
 
 body.substack-home-blocker-enabled {
   overflow: auto !important;
+}
+
+body.substack-home-blocker-enabled [role="navigation"],
+body.substack-home-blocker-enabled header,
+body.substack-home-blocker-enabled nav,
+body.substack-home-blocker-enabled [data-testid="page-header"],
+body.substack-home-blocker-enabled [data-testid="main-navigation"] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 #substack-home-blocker-banner {
