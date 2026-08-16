@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Substack Home Blocker",
+  "version": "1.0.0",
+  "description": "Hide the endless Substack home feed to reduce infinite scrolling.",
+  "host_permissions": [
+    "https://substack.com/*",
+    "https://*.substack.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://substack.com/*",
+        "https://*.substack.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

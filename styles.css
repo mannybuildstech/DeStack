@@ -1,0 +1,35 @@
+body.substack-home-blocker-enabled main,
+body.substack-home-blocker-enabled [data-testid*="feed"],
+body.substack-home-blocker-enabled .feed,
+body.substack-home-blocker-enabled .home-feed,
+body.substack-home-blocker-enabled .homepage,
+body.substack-home-blocker-enabled .post-feed,
+body.substack-home-blocker-enabled .post-list,
+body.substack-home-blocker-enabled .posts,
+body.substack-home-blocker-enabled article,
+body.substack-home-blocker-enabled .post-preview {
+  display: none !important;
+}
+
+body.substack-home-blocker-enabled {
+  overflow: auto !important;
+}
+
+#substack-home-blocker-banner {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 2147483647;
+  display: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  letter-spacing: 0.02em;
+}
+
+body.substack-home-blocker-enabled #substack-home-blocker-banner {
+  display: block;
+}
