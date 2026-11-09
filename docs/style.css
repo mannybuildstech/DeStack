@@ -6,7 +6,9 @@ body{margin:0;background:var(--bg);color:var(--fg);font:1.0625rem/1.65 system-ui
 a{color:var(--accent)}
 a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--card);padding:.5rem;z-index:9}
-header{padding:4rem 0 2rem}
+header{padding:3rem 0 2rem;text-align:center}
+.logo{width:clamp(120px,32vw,176px);height:auto;border-radius:22%;margin-bottom:1rem}
+.tagline{font-size:clamp(1.4rem,5vw,2rem);font-weight:600;margin:0 0 .75rem}
 h1{font-size:clamp(2.2rem,7vw,3.4rem);margin:0 0 .5rem;line-height:1.1}
 h2{margin-top:0}
 .lead{font-size:1.25rem;color:var(--muted)}
