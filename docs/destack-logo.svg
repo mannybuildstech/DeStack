@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">DeStack: a person tearing a page from a newspaper</title>
+  <rect width="512" height="512" rx="100" fill="#ED6C2D"/>
+  <g fill="#fff">
+    <circle cx="142" cy="151" r="37"/>
+    <path d="M92 356v-82c0-46 22-70 54-70 15 0 27 5 37 14l70-63c8-7 19-7 27 1s8 20-1 28l-85 78c-7 7-17 8-25 3l-5-3v94z"/>
+    <path d="M248 231h164v139c0 11-9 20-20 20H268c-11 0-20-9-20-20z" transform="translate(0 10)"/>
+    <path d="M287 106l94-20 25 117-18 4-9-8-8 12-10-8-8 12-10-8-8 12-10-8-8 12-10-8-8 10-12-4z" transform="translate(0 -6)"/>
+  </g>
+  <g fill="#ED6C2D">
+    <path d="M294 257h91v14h-91zM294 284h91v14h-91zM286 312h99v14h-99zM270 340h115v14H270z" transform="translate(0 10)"/>
+    <path d="M308 127l65-14 3 14-65 14zM314 151l65-14 3 14-65 14z" transform="translate(0 -6)"/>
+  </g>
+</svg>
